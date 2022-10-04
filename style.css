@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+.work_section_project1 a{
+    color: black;
+    text-decoration: none;
+}
+
 .intro_section{
     display: flex;
     justify-content: center;
@@ -29,7 +34,8 @@
     color: white;
 }
 
-.intro_section_text button{
+.intro_section_text button,
+.work_section_project1 button{
     margin-top: 3rem;
     background: #45a3e6;
     border-radius: 5px;
@@ -45,7 +51,8 @@
 }
 
 .intro_section_text button:hover,
-.contact_section button:hover{
+.contact_section button:hover,
+.work_section_project1 button:hover{
     background: white;
     border: 1px solid #45A3E6;
     color: black;
@@ -181,6 +188,25 @@
     background-color: white;
     border-radius: 5px;
 }
+
+.work_section_project1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work_section_project1 h3{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.work_section_project1 p{
+    margin:0 0.2rem 2rem 0.2rem;
+}
+
+.work_section_project1 button{
+    margin-top: 0.5rem;
+}
+
 
 .contact_section{
     display: flex;
