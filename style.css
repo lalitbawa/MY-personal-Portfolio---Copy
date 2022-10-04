@@ -9,7 +9,7 @@
 .intro_section{
     display: flex;
     justify-content: center;
-    margin-top: 5rem;
+    margin: 3rem 0 2rem 0;
 }
 
 .intro_section img{
@@ -20,6 +20,7 @@
 .intro_section_text{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .lalit,
@@ -50,6 +51,12 @@
     color: black;
 }
 
+.intro_section_text_btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .navbar{
     margin-top: 1rem;
 }
@@ -65,6 +72,11 @@
     text-decoration: none;
     font-weight: 500;
     font-size: 1rem;
+}
+
+.navbar-links li a:hover{
+    color: #45A3E6;
+    transition: 0.5s;
 }
 
 .button-container{
@@ -124,11 +136,11 @@
     flex-direction: column;
     align-items: center;
     margin-right: 2rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .about_section_skills_images{
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     display: flex;
     flex-direction: row;
     align-items: center;
