@@ -6,7 +6,8 @@
     scroll-behavior: smooth;
 }
 
-.work_section_project1 a{
+.work_section_project1 a,
+.work_section_project2 a{
     color: black;
     text-decoration: none;
 }
@@ -35,7 +36,8 @@
 }
 
 .intro_section_text button,
-.work_section_project1 button{
+.work_section_project1 button,
+.work_section_project2 button{
     margin-top: 3rem;
     background: #45a3e6;
     border-radius: 5px;
@@ -52,7 +54,8 @@
 
 .intro_section_text button:hover,
 .contact_section button:hover,
-.work_section_project1 button:hover{
+.work_section_project1 button:hover,
+.work_section_project2 button:hover{
     background: white;
     border: 1px solid #45A3E6;
     color: black;
@@ -183,7 +186,7 @@
 .work_section_project1,
 .work_section_project2{
     margin-top: 2rem;
-    height: 22rem;
+    height: auto;
     width: 20rem;
     background-color: white;
     border-radius: 5px;
@@ -316,6 +319,10 @@ footer{
 
 .pop_up a:hover{
     opacity: 0.8;
+}
+
+#bd_logo{
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 550px){
