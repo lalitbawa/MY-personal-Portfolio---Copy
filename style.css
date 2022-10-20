@@ -183,7 +183,7 @@
 .work_section_project1,
 .work_section_project2{
     margin-top: 2rem;
-    height: 20rem;
+    height: 22rem;
     width: 20rem;
     background-color: white;
     border-radius: 5px;
@@ -201,6 +201,15 @@
 
 .work_section_project1 p{
     margin:0 0.2rem 2rem 0.2rem;
+}
+
+.work_section_project1 a{
+    color:#000000;
+}
+
+.more_main a{
+    color: red;
+    text-decoration: underline;
 }
 
 .work_section_project1 button{
